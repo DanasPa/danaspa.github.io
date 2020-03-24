@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Static HTML Site Boilerplate</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="assets/images/asp-logo.jpg" alt="aspolitas logo"
+                     class="header__logo-img"/>
+            </div>
+            <div class="header__mobile-menu">
+                <svg class="icon">
+                    <use xlink:href="#hamburger"/>
+                </svg>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-items">
+                    <li class="header__nav-item">
+                        <a href="#" class="link header__nav-link">
+                            Produktai
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="link header__nav-link">
+                            Apie mus
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="link header__nav-link">
+                            Naujienos
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="link header__nav-link">
+                            Kontaktai
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="link header__nav-link">
+                            <svg class="icon icon--sm">
+                                <use xlink:href="#search"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="main products-page">
+    <div class="page-header bg-grey">
+        <div class="container">
+            <h1 class="heading--lg">
+                Produktai
+            </h1>
+            <div class="breadcrumbs">
+                <span class="breadcrumbs__item">
+                   <a href="#" class="breadcrumbs__link">Titulinis</a>
+                </span>
+                <span class="breadcrumbs__item">
+                   <a href="#" class="breadcrumbs__link">Produktai</a>
+                </span>
+                <span class="breadcrumbs__item">
+                   <a href="#" class="breadcrumbs__link">Transporto priemonių alyvos</a>
+                </span>
+                <span class="breadcrumbs__item breadcrumbs__item--active">
+                    Motociklų alyvos
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container">
+            <div class="layout-sidebar">
+                <div class="layout-sidebar__sidebar">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item--has-sub">
+                            Transporto priemonių alyvos
+                            <span class="sub-arrow"></span>
+                            <ul class="list-group list-group--sub">
+                                <li class="list-group-item">
+                                    <a href="javascript:void(0)" class="link">
+                                        Lengvųjų automobilių variklių alyvos
+                                    </a>
+                                </li>
+                                <li class="list-group-item ">
+                                    <a href="javascript:void(0)" class="link">
+                                        Sunkiai apkrautų dyzelinių variklių alyvos
+                                    </a>
+                                </li>
+                                <li class="list-group-item  active">
+                                    <a href="javascript:void(0)" class="link">
+                                        Motociklų alyvos
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="javascript:void(0)" class="link">
+                                        Specialios alyvos žemės ūkio ir statybos technikai
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="javascript:void(0)" class="link">
+                                        Transmisinės alyvos
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-group-item--has-sub">
+                            Pramonės alyvos ir skysčiai
+                            <span class="sub-arrow"></span>
+                            <ul class="list-group list-group--sub">
+                                <li class="list-group-item">Hydrauliniai skysčiai</li>
+                                <li class="list-group-item">Kompresorinės alyvos</li>
+                                <li class="list-group-item">Pramoninių reduktorių alyvos</li>
+                                <li class="list-group-item">Cirkuliacinės alyvos</li>
+                                <li class="list-group-item">Turbininės alyvos</li>
+                                <li class="list-group-item">Šilumos pernešimo alyvos</li>
+                                <li class="list-group-item">Elektroizoliacinės alyvos</li>
+                                <li class="list-group-item">Medicininės baltosios alyvos</li>
+                                <li class="list-group-item">Maisto pramonės alyvos</li>
+                                <li class="list-group-item">Metalo apdirbimo skysčiai</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-group-item--has-sub">
+                            Pramonės plastiškieji tepalai
+                            <span class="sub-arrow"></span>
+                            <ul class="list-group list-group--sub">
+                                <li class="list-group-item">Maisto pramonei skirti tepalai</li>
+                                <li class="list-group-item">Surinkimo pastos</li>
+                                <li class="list-group-item">Biologiškai skaidūs tepalai</li>
+                                <li class="list-group-item">Cheminio atsparumo tepalai</li>
+                                <li class="list-group-item">Aukšta temperatūriai tepalai</li>
+                                <li class="list-group-item">Atvirų pavarų tepalai</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="layout-sidebar__content">
+                    <div class="products-list">
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+                        <div class="products-list__item">
+                            <svg class="icon icon--xl">
+                                <use xlink:href="#canister"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <nav aria-label="..." class="pg">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Atgal</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Kitas</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRODUCTS -->
+
+    <!-- EXPLORE PRODUCTS -->
+    <div class="contact-us">
+        <div class="container">
+            <div class="contact-us__header text-center">
+                <h2 class="heading heading--xl">Nerandate norimo produkto?</h2>
+                <p class="text-greydark">Susisiekite su mumis!</p>
+            </div>
+            <div class="contact-us__contacts">
+                <div class="contact-us__contacts-item">
+                    <svg class="icon icon--lg">
+                        <use xlink:href="#phone"/>
+                    </svg>
+                    +370 608 30 333
+                </div>
+                <div class="contact-us__contacts-item">
+                    <svg class="icon icon--lg">
+                        <use xlink:href="#mail"/>
+                    </svg>
+                    info@aspolitas.lt
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer class="footer bg-grey">
+    <!-- MANUFACTURERS -->
+    <div class="manufacturers">
+        <div class="container">
+            <div class="manufacturers__list">
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/shell.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/petrocanada.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/molydal.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/cyclo.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/brugarolas.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/mann-filter.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/hifi-filter.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/fleetguard.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/total.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo" src="http://www.aspolitas.lt/img/castrol.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo"
+                         src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Petronas_2013_logo.svg/1200px-Petronas_2013_logo.svg.png"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo"
+                         src="https://genys.lt/wp-content/uploads/2017/06/molymduval-logo.jpg"/>
+                </div>
+                <div class="manufacturers__list-item">
+                    <img class="manufacturers__list-item-logo"
+                         src="https://www.smoku.eu/wp-content/uploads/2014/12/oilfino.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-xs">
+        <div class="container">
+            <hr class="separator">
+            <div class="footer__bottom">
+                <div class="footer__nav-wrapper">
+                    <ul class="list-group list-group--horizontal footer__nav text-greydark">
+                        <li class="list-group-item">
+                            <a href="#" class="link">Produktai</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="link">Apie mus</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="link">Naujienos</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="link">Kontaktai</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copy text-greydark">
+                    © UAB Aspolitas. Visos teisės saugomos.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ICONS -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="oil" viewBox="0 0 496 496">
+        <path d="M460.288 208a214.807 214.807 0 00-8.464-31.496l30.952-17.864-40-69.28-30.992 17.88a218.133 218.133 0 00-23.032-23.032l17.88-30.992-69.28-40-17.864 30.952A215.41 215.41 0 00288 35.712V0h-80v35.712a214.807 214.807 0 00-31.496 8.464L158.64 13.224l-69.28 40 17.88 30.992a218.133 218.133 0 00-23.032 23.032L53.224 89.36l-40 69.28 30.952 17.864A214.807 214.807 0 0035.712 208H0v80h35.712c2 10.624 4.832 21.168 8.464 31.496L13.224 337.36l40 69.28 30.992-17.88a218.133 218.133 0 0023.032 23.032l-17.88 30.992 69.28 40 17.864-30.952a214.27 214.27 0 0031.496 8.464V496h80v-35.712c10.624-2 21.168-4.832 31.496-8.464l17.864 30.952 69.28-40-17.88-30.992a218.133 218.133 0 0023.032-23.032l30.992 17.88 40-69.28-30.952-17.864a214.27 214.27 0 008.464-31.496H496V208h-35.712zM480 272h-33.312l-1.048 6.776c-2.168 14-5.904 27.928-11.12 41.376l-2.48 6.392 28.88 16.672-24 41.568-28.888-16.68-4.296 5.328a201.629 201.629 0 01-30.296 30.296l-5.328 4.296 16.68 28.888-41.568 24-16.672-28.872-6.392 2.48c-13.456 5.216-27.376 8.952-41.376 11.12L272 446.688V480h-48v-33.312l-6.776-1.048c-14-2.168-27.928-5.904-41.376-11.12l-6.392-2.48-16.672 28.872-41.568-24 16.68-28.888-5.328-4.296a201.629 201.629 0 01-30.296-30.296l-4.296-5.328-28.888 16.68-24-41.568 28.872-16.672-2.48-6.392c-5.216-13.456-8.952-27.376-11.12-41.376L49.312 272H16v-48h33.312l1.048-6.776c2.168-14 5.904-27.928 11.12-41.376l2.48-6.392-28.872-16.672 24-41.568 28.888 16.68 4.296-5.328a201.629 201.629 0 0130.296-30.296l5.328-4.296-16.68-28.888 41.568-24 16.672 28.872 6.392-2.48c13.456-5.216 27.376-8.952 41.376-11.12L224 49.312V16h48v33.312l6.776 1.048c14 2.168 27.928 5.904 41.376 11.12l6.392 2.48 16.672-28.872 41.568 24-16.68 28.888 5.328 4.296a201.629 201.629 0 0130.296 30.296l4.296 5.328 28.888-16.68 24 41.568-28.872 16.672 2.48 6.392c5.216 13.456 8.952 27.376 11.12 41.376l1.048 6.776H480v48z"/>
+        <path d="M266.496 105.344L248 71.2l-18.496 34.144C157.672 114.528 104 175.016 104 248c0 37.464 14.344 72.792 40.32 99.768 16.52 40 55.904 68.232 101.792 68.232h3.768c45.888 0 85.272-28.24 101.792-68.232C377.656 320.792 392 285.464 392 248c0-72.984-53.672-133.472-125.504-142.656zM136 305.88c0 1.456.16 2.872.216 4.312C125.696 291.36 120 270.112 120 248c0-60.832 41.96-111.896 99.816-124.768l-70.52 130.2C140.6 269.496 136 287.632 136 305.88zM249.88 400h-3.768C194.224 400 152 357.776 152 305.88c0-15.6 3.928-31.104 11.36-44.832L248 104.8l84.64 156.256A94.466 94.466 0 01344 305.888C344 357.776 301.776 400 249.88 400zm109.904-89.808c.056-1.44.216-2.856.216-4.312 0-18.256-4.6-36.384-13.296-52.448l-70.52-130.2C334.04 136.104 376 187.168 376 248c0 22.112-5.696 43.36-16.216 62.192z"/>
+    </symbol>
+    <symbol id="oil-platform" viewBox="0 0 496 496">
+        <path d="M480 480h16v16h-16zM496 176v-16H336v16h16v72h-16v16h16v72h-24.8L296.888 48H312V0h-96v48h15.112L200.8 336h-13.08L63.664 188.68C61.976 172.608 48.512 160 32 160c-17.648 0-32 14.352-32 32 0 14.872 10.232 27.288 24 30.864V480H0v16h464v-16h-16v-80h48v-64h-16v-72h16v-16h-16v-72h16zm-128 0h96v72h-96v-72zm0 88h96v72h-96v-72zm-57.376 67.312L243.312 264h60.224l7.088 67.312zm-9.528-90.496L249.96 184h45.152l5.984 56.816zM242.992 88l4.208-40h33.6l4.208 40h-42.016zm43.704 16l5.544 52.68L255.368 104h31.328zm-6.064 64h-46.064l6.024-57.208L280.632 168zM232 16h64v16H232V16zm.424 172.424L286.04 248h-59.888l6.272-59.576zm-8.32 78.992L292.688 336H216.88l7.224-68.584zM166.8 336h-34.592l-11-16h32.12l13.472 16zm-50.832-60.368L139.856 304h-29.648l-3.536-5.144 9.296-23.224zm-11.68-13.88l-8.504 21.256-29.08-42.296 31.08 13.32 6.504 7.72zm-44.944-53.368l15.512 18.424-23.04-9.872c2.992-2.392 5.544-5.256 7.528-8.552zM16 192c0-8.824 7.176-16 16-16s16 7.176 16 16-7.176 16-16 16-16-7.176-16-16zm88 288H40V230.12l48.64 70.744-.064.168.248.096L112.792 336H56v64h48v80zm80-32h-8v16h8v16h-64v-16h40v-16h-40v-48h64v48zm168 32H200v-80h152v80zm80-32h-8v16h8v16h-64v-16h40v-16h-40v-48h64v48zm48-64H72v-32h408v32z"/>
+        <path d="M384 192h16v16h-16zM416 192h16v16h-16zM432 304h16v16h-16zM400 304h16v16h-16z"/>
+    </symbol>
+    <symbol id="cargo" viewBox="0 0 511 511">
+        <path d="M510.85 270.002a7.432 7.432 0 00-.458-1.461L478.34 193.19c-5.86-15.072-20.637-25.19-36.817-25.19H399.5c-12.958 0-23.5 10.542-23.5 23.5V312h-81v-17.396c35.913-3.761 64-34.212 64-71.105v-16c0-39.425-32.075-71.5-71.5-71.5H207v-8.5c0-12.958-10.542-23.5-23.5-23.5h-8c-12.958 0-23.5 10.542-23.5 23.5v8.5H71.5C32.075 136 0 168.075 0 207.5v16c0 36.892 28.087 67.344 64 71.105V312H7.5a7.5 7.5 0 000 15h13.406C12.912 335.504 8 346.936 8 359.5 8 385.691 29.309 407 55.5 407c16.782 0 31.548-8.756 40-21.932 8.452 13.176 23.218 21.932 40 21.932 23.639 0 43.295-17.36 46.902-40H216v.5c0 12.958 10.542 23.5 23.5 23.5h48c12.958 0 23.5-10.542 23.5-23.5v-.5h65.598c3.607 22.64 23.263 40 46.902 40s43.295-17.36 46.902-40H495.5c8.547 0 15.5-6.953 15.5-15.5v-79.978a7.468 7.468 0 00-.15-1.52zM496 320h-8.5a.527.527 0 01-.5-.5v-8c0-.257.243-.5.5-.5h8.5v9zm-7.243-64H439.5c-9.098 0-16.5-7.402-16.5-16.5V215h48.316l17.441 41zm-112.159 96h-66.832c-3.138-9.29-11.93-16-22.266-16h-48c-10.336 0-19.128 6.71-22.266 16h-34.832c-1.528-9.589-5.938-18.224-12.308-25h218.812c-6.37 6.776-10.781 15.411-12.308 25zM167 127.5c0-4.687 3.813-8.5 8.5-8.5h8c4.687 0 8.5 3.813 8.5 8.5v8.5h-25v-8.5zm-152 96v-16c0-31.154 25.346-56.5 56.5-56.5H88v16.5a7.5 7.5 0 0015 0V151h153v16.5a7.5 7.5 0 0015 0V151h16.5c31.154 0 56.5 25.346 56.5 56.5v16c0 31.154-25.346 56.5-56.5 56.5H271v-80.5a7.5 7.5 0 00-15 0V280H103v-80.5a7.5 7.5 0 00-15 0V280H71.5C40.346 280 15 254.654 15 223.5zM79 295h201v17H79v-17zm21.906 32a47.81 47.81 0 00-5.406 6.932A47.81 47.81 0 0090.094 327h10.812zM55.5 392C37.58 392 23 377.421 23 359.5S37.58 327 55.5 327 88 341.579 88 359.5 73.42 392 55.5 392zm80 0c-17.92 0-32.5-14.579-32.5-32.5s14.58-32.5 32.5-32.5 32.5 14.579 32.5 32.5-14.58 32.5-32.5 32.5zM296 367.5c0 4.687-3.813 8.5-8.5 8.5h-48c-4.687 0-8.5-3.813-8.5-8.5v-8c0-4.687 3.813-8.5 8.5-8.5h48c4.687 0 8.5 3.813 8.5 8.5v8zM423.5 392c-17.92 0-32.5-14.579-32.5-32.5s14.58-32.5 32.5-32.5 32.5 14.579 32.5 32.5-14.58 32.5-32.5 32.5zm72-40h-25.098c-3.607-22.64-23.263-40-46.902-40H391V191.5c0-4.687 3.813-8.5 8.5-8.5h42.022c10.064 0 19.254 6.312 22.867 15.705.031.082.064.163.099.243l.447 1.052H415.5a7.5 7.5 0 00-7.5 7.5v32c0 17.369 14.131 31.5 31.5 31.5h55.637l.863 2.028V296h-8.5c-8.547 0-15.5 6.953-15.5 15.5v8c0 8.547 6.953 15.5 15.5 15.5h8.5v16.5a.5.5 0 01-.5.5z"/>
+        <path d="M55.5 344c-8.547 0-15.5 6.953-15.5 15.5S46.953 375 55.5 375 71 368.047 71 359.5 64.047 344 55.5 344zm0 16a.5.5 0 11.002-1.002A.5.5 0 0155.5 360zM135.5 344c-8.547 0-15.5 6.953-15.5 15.5s6.953 15.5 15.5 15.5 15.5-6.953 15.5-15.5-6.953-15.5-15.5-15.5zm0 16a.5.5 0 11.002-1.002.5.5 0 01-.002 1.002zM423.5 344c-8.547 0-15.5 6.953-15.5 15.5s6.953 15.5 15.5 15.5 15.5-6.953 15.5-15.5-6.953-15.5-15.5-15.5zm0 16a.5.5 0 11.002-1.002.5.5 0 01-.002 1.002z"/>
+    </symbol>
+    <symbol id="spray" viewBox="0 0 512.003 512.003">
+        <path d="M106 229.003c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zM106 269.003c-5.523 0-10 4.477-10 10v140c0 5.523 4.477 10 10 10s10-4.477 10-10v-140c0-5.523-4.477-10-10-10z"/>
+        <path d="M296 453.723V418.4 239.632v-35.333a29.911 29.911 0 0011.211-7.085c5.668-5.668 8.789-13.201 8.789-21.211 0-13.182-8.549-24.397-20.392-28.413-3.636-39.248-32.359-73.105-69.608-82.18V10.003c0-5.523-4.477-10-10-10h-40c-27.57 0-50 22.43-50 50v15.416c-16.403 3.997-31.719 12.893-43.819 25.627-14.668 15.438-23.811 35.667-25.773 56.526a29.874 29.874 0 00-11.619 7.22C39.121 160.46 36 167.993 36 176.003c0 13.036 8.361 24.152 20 28.28v249.424a29.911 29.911 0 00-11.211 7.085C39.121 466.46 36 473.993 36 482.003c0 16.542 13.458 30 30 30h220c8.01 0 15.542-3.121 21.211-8.789 5.668-5.668 8.789-13.201 8.789-21.211 0-13.036-8.361-24.152-20-28.28zM146 50.003c0-16.542 13.458-30 30-30h30v43h-60v-13zm-49.321 54.818c11.084-11.663 25.525-19.206 40.665-21.238a65.204 65.204 0 018.657-.581h60c2.88 0 5.793.195 8.657.581 31.171 4.194 56.222 30.706 60.648 62.419H76.713c2.163-15.213 9.175-29.823 19.966-41.181zm-37.748 64.113A9.936 9.936 0 0166 166.003h220c5.514 0 10 4.486 10 10a9.934 9.934 0 01-2.931 7.069 9.936 9.936 0 01-7.069 2.931H66c-5.514 0-10-4.486-10-10a9.932 9.932 0 012.931-7.069zM176 329.003c0 55.14 44.86 100 100 100v23H76v-246h200v23c-55.14 0-100 44.859-100 100zm100-80v160c-44.112 0-80-35.888-80-80s35.888-80 80-80zm17.07 240.068a9.936 9.936 0 01-7.069 2.931H66c-5.514 0-10-4.486-10-10a9.934 9.934 0 012.931-7.069A9.936 9.936 0 0166 472.002h220c5.514 0 10 4.486 10 10a9.936 9.936 0 01-2.93 7.069zM467.24 80.08l-160-20c-5.478-.687-10.478 3.202-11.163 8.683-.685 5.48 3.202 10.478 8.683 11.163l160 20c.421.053.839.078 1.253.078 4.97 0 9.277-3.702 9.91-8.761.685-5.48-3.202-10.478-8.683-11.163zM475.924 8.762c-.686-5.48-5.679-9.37-11.163-8.683l-160 20c-5.48.685-9.367 5.683-8.683 11.163.632 5.06 4.94 8.761 9.91 8.761.413 0 .832-.025 1.253-.078l160-20c5.48-.685 9.367-5.683 8.683-11.163z"/>
+    </symbol>
+    <symbol id="corrosion-spray" viewBox="-119 0 512 512.082">
+        <path d="M222.906 69.617c.227-.027.453-.023.676-.07l35.809-7.168a17.098 17.098 0 0013.718-16.73V25.511a17.127 17.127 0 00-13.718-16.735l-35.809-7.16c-.18-.035-.355.04-.535.016-.223-.031-.41-.153-.64-.164C209.933.734 197.66.445 188.39.269a952.925 952.925 0 00-20.868-.203h-.441a552.971 552.971 0 00-87.617 5.625c-30.156 4.86-52.184 16.106-65.492 33.442A24.564 24.564 0 007.832 61.84 28.283 28.283 0 0021 75.43a105.114 105.114 0 0022.75 9.351l4.793 1.559c32.84 10.95 38.715 24.793 37.23 30.625-.043.32-.066.644-.074.965-.16.527-.27 1.07-.324 1.617v27.976a17.02 17.02 0 00-8.535 14.692v25.078C30.652 204.984.12 249.289.04 298.75v170.664c.03 23.555 19.116 42.64 42.667 42.668h153.602c23.55-.027 42.636-19.113 42.664-42.668V298.75c-.082-49.46-30.61-93.766-76.797-111.457v-25.078a17.02 17.02 0 00-8.535-14.692v-27.976a35.55 35.55 0 012.68-13.602l44.843 56.028c6.05 7.664 16.867 9.605 25.207 4.535 8.344-5.074 11.59-15.57 7.57-24.469l-31.125-68.437a140.68 140.68 0 0119.891-3.926c.074-.008.129-.047.2-.059zm34.809-15.605l-1.676-8.364h.02zm-1.684-8.364l-25.59 5.122V20.39l25.598 5.122zM53.941 70.156l-4.976-1.62A90.688 90.688 0 0129.78 60.8c-4.648-2.79-5.672-4.133-5.863-4.672-.11-.3-.16-1.676 3.605-6.617 10.559-13.75 28.942-22.828 54.66-26.965a537.77 537.77 0 0184.907-5.41c6.926.027 13.957.05 20.957.199 7.117.133 15.992.336 25.324.75v35.672c-19.695 3.293-70.07 15.75-76.187 57.258h-34.582a31.487 31.487 0 00-2.86-8.868c-6.492-13.265-21.902-24.023-45.8-31.992zm82.633 74.992h-34.133v-17.066h34.133zm85.332 273.067H119.508c-4.711-.004-8.531-3.82-8.535-8.531v-85.336c.004-4.711 3.824-8.532 8.535-8.532h102.398zm0-119.465H119.508c-14.133.016-25.586 11.465-25.602 25.598v85.336c.016 14.129 11.469 25.582 25.602 25.597h102.398v34.133c-.015 14.133-11.465 25.586-25.597 25.602H42.707c-14.133-.016-25.582-11.47-25.598-25.602V298.75c0-56.555 45.844-102.402 102.399-102.402 56.554 0 102.398 45.847 102.398 102.402zM119.508 179.281c-8.61.02-17.196.969-25.602 2.832v-19.898h51.203l-.039 19.887a119.452 119.452 0 00-25.562-2.82zm98.89-30.191a2.218 2.218 0 01-1.074 2.933c-.32.18-.683.282-1.05.293a2.179 2.179 0 01-1.692-.89l-47.887-59.84a71.467 71.467 0 0119.914-12.399zm0 0"/>
+        <path d="M81.148 227.414a93.214 93.214 0 00-46.804 61.125c-.922 4.621 2.074 9.117 6.691 10.043a8.433 8.433 0 001.684.172 8.532 8.532 0 008.36-6.86 76.37 76.37 0 0138.523-49.64 8.536 8.536 0 00-8.446-14.836zm0 0M128.04 221.95c0 4.71-3.821 8.53-8.532 8.53a8.533 8.533 0 110-17.066c4.71 0 8.531 3.82 8.531 8.535zm0 0"/>
+    </symbol>
+    <symbol id="search" viewBox="0 0 515.558 515.558">
+        <path d="M378.344 332.78c25.37-34.645 40.545-77.2 40.545-123.333C418.889 93.963 324.928.002 209.444.002S0 93.963 0 209.447s93.961 209.445 209.445 209.445c46.133 0 88.692-15.177 123.337-40.547l137.212 137.212 45.564-45.564L378.344 332.78zm-168.899 21.667c-79.958 0-145-65.042-145-145s65.042-145 145-145 145 65.042 145 145-65.043 145-145 145z"/>
+    </symbol>
+    <symbol id="hamburger" viewBox="0 0 512 512">
+        <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zM492 76H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zM492 396H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"/>
+    </symbol>
+    <symbol id="canister" viewBox="-9 0 375 375.467">
+        <path d="M162.621 78.023a6.835 6.835 0 006.168 3.899h111.324a6.844 6.844 0 005.297-2.516l27.832-34.133a6.832 6.832 0 00.875-7.242 6.831 6.831 0 00-6.168-3.898H196.625a6.824 6.824 0 00-5.293 2.515l-27.836 34.133a6.832 6.832 0 00-.875 7.242zm37.242-30.238h93.711l-16.699 20.48h-93.71zm0 0"/><path d="M349.695 0H167.848a6.84 6.84 0 00-5.094 2.277l-28.848 32.29-24.953-22.325c-2.816-2.515-7.133-2.277-9.637.531L43.641 74.996a6.831 6.831 0 00.535 9.64l25 22.372-18.328 20.512a6.856 6.856 0 00-1.735 4.55v28C43.008 167.922.234 223.914.234 251.414c0 28.176 21.453 51.43 48.88 54.293v62.934a6.824 6.824 0 006.827 6.824h293.754a6.82 6.82 0 006.825-6.824V6.828A6.82 6.82 0 00349.695 0zM104.938 26.969l19.87 17.781-7.124 7.973-19.274-16.57c-.34-.294-.75-.419-1.125-.63zm-6.504 47.293L78.195 56.859l10.356-11.578c.304.418.543.871.953 1.223l19.078 16.406zM58.37 79.016l10.715-11.977 20.25 17.41-11.063 12.38zM13.887 251.414c0-17.351 25.953-56.027 40.941-76.277 14.984 20.246 40.938 58.914 40.938 76.277 0 22.578-18.368 40.945-40.938 40.945-22.574 0-40.941-18.367-40.941-40.945zm328.98 110.399H62.77v-56.446c26.343-3.863 46.652-26.55 46.652-53.953 0-25.344-36.305-74.851-46.793-88.625.027-.234.14-.441.14-.687v-27.426L170.903 13.652h171.965zm0 0"/><path d="M298.504 112.992a6.838 6.838 0 00-9.637.692l-85.293 98.414-85.293-98.414a6.834 6.834 0 00-9.636-.692 6.835 6.835 0 00-.684 9.633l86.578 99.898-86.578 99.899a6.836 6.836 0 00.684 9.633 6.83 6.83 0 004.472 1.668c1.91 0 3.809-.797 5.16-2.36l85.297-98.414 85.293 98.414a6.805 6.805 0 005.16 2.36c1.586 0 3.18-.551 4.473-1.668a6.835 6.835 0 00.684-9.633l-86.579-99.899 86.579-99.898a6.831 6.831 0 00-.68-9.633zm0 0M86.39 247.52c0-3.77-3.054-6.829-6.828-6.829s-6.828 3.059-6.828 6.829c0 10.527-8.566 19.093-19.093 19.093a6.824 6.824 0 00-6.825 6.828 6.82 6.82 0 006.825 6.825c18.054 0 32.75-14.692 32.75-32.746zm0 0"/>
+    </symbol>
+    <symbol id="phone" viewBox="0 0 511.999 511.999">
+        <path d="M498.827 377.633l-63.649-63.649c-17.548-17.547-46.102-17.547-63.649 0l-28.931 28.931c-13.294 13.294-34.926 13.29-48.215.005l-125.4-125.507c-13.325-13.325-13.327-34.892 0-48.219l28.931-28.931c17.471-17.47 17.715-45.935-.017-63.665l-63.632-63.432C116.717-4.381 88.164-4.381 70.663 13.12L47.471 36.111c-63.28 63.279-63.28 166.242-.003 229.519L246.16 464.426c63.428 63.429 166.088 63.434 229.521 0l23.146-23.145c17.548-17.548 17.548-46.1 0-63.648zM91.833 34.382c5.849-5.849 15.365-5.85 21.233.016l63.632 63.432c5.863 5.863 5.863 15.352 0 21.216l-10.609 10.608-84.81-84.81 10.554-10.462zM267.38 443.213L68.687 244.415c-48.958-48.958-51.649-125.833-8.276-178.006l84.564 84.564c-22.22 25.189-21.294 63.572 2.787 87.653l125.396 125.501.004.004c24.055 24.056 62.436 25.042 87.656 2.792l84.566 84.566c-52.007 43.298-128.709 41.019-178.004-8.276zm210.232-23.148l-10.609 10.609-84.865-84.866 10.607-10.608c5.85-5.849 15.367-5.85 21.217 0l63.649 63.649c5.85 5.85 5.85 15.368.001 21.216z"/>
+    </symbol>
+    <symbol id="mail" viewBox="0 0 512 512">
+        <path d="M467 61H45C20.218 61 0 81.196 0 106v300c0 24.72 20.128 45 45 45h422c24.72 0 45-20.128 45-45V106c0-24.72-20.128-45-45-45zm-6.214 30L256.954 294.833 51.359 91h409.427zM30 399.788V112.069l144.479 143.24L30 399.788zM51.213 421l144.57-144.57 50.657 50.222c5.864 5.814 15.327 5.795 21.167-.046L317 277.213 460.787 421H51.213zM482 399.787L338.213 256 482 112.212v287.575z"/>
+    </symbol>
+</svg>
+<script type="text/javascript" src="app.bundle.js"></script></body>
